@@ -1,23 +1,16 @@
 export default function Home() {
   return (
     <main>
-      <div>
-        <h1>Dobrodošli na web stranicu porodice Sapundžić</h1>
-        <p>
-          Ova stranica je trenutno u izradi, molimo vas da se vratite kasnije{" "}
-        </p>
-        <p>LP,</p>
-        <p>Član porodice</p>
-      </div>
-
-      <div>
-        <h1>Willkommen auf der Website der Familie Sapundzic</h1>
-        <p>
-          Diese Webseite ist derzeit in Produktion, bitte besuchen Sie sie
-          später wieder.
-        </p>
-        <p>Mit freundlichen Grüßen, </p>
-        <p>Ein Familienmitglied</p>
+      <div className="hero min-h-screen bg-base-200">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="text-5xl font-bold">Dobrodošli </h1>
+            <p className="py-6">
+              na web stranicu porodice Sapundžić. Ova stranica je trenutno u
+              izradi, molimo vas da se vratite kasnije.
+            </p>
+          </div>
+        </div>
       </div>
     </main>
   );
