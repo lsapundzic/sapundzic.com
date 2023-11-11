@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link href="./wisdoms">Wisdoms</Link>
+            <Link href="./wisdom">Family Wisdom</Link>
           </li>
           {/* For creating a dropdown menu*/}
           {/*<li>*/}
