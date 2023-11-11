@@ -10,7 +10,7 @@ const config: Config = {
     themes: ["autumn"],
   },
 
-  plugins: [require("daisyui")],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
 
 export default config;
