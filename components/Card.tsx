@@ -1,4 +1,4 @@
-const CustomCard = () => {
+const Card = () => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <div className="card-body">
@@ -12,4 +12,4 @@ const CustomCard = () => {
   );
 };
 
-export default CustomCard;
+export default Card;
