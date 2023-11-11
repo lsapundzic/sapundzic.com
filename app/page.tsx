@@ -1,9 +1,7 @@
-
-
 export default function Home() {
   return (
-   <div>
-     <h1>Sapundzic Family Website</h1>
-   </div>
-  )
+    <div>
+      <h1>The Sapundzic Family Website</h1>
+    </div>
+  );
 }
