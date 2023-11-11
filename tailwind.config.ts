@@ -7,7 +7,7 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   daisyui: {
-    themes: ["cupcake"],
+    themes: ["autumn"],
   },
 
   plugins: [require("daisyui")],

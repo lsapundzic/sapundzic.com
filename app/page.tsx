@@ -1,3 +1,5 @@
+import CustomCard from "@/components/CustomCard";
+
 export default function Home() {
   return (
     <div>
@@ -5,6 +7,7 @@ export default function Home() {
       <div>
         <h2>Testing Daisy</h2>
         <button className="btn btn-primary">Hi</button>
+        <CustomCard />
       </div>
     </div>
   );
