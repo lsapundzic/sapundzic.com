@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <Link href="./about">
+    <Link href="./home">
       <div className="flex justify-center items-center h-screen bg-gray-100">
         <h1 className="text-6xl font-bold text-gray-900">
           The Sapundzic Family
